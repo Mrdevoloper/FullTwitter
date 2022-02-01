@@ -1,0 +1,331 @@
+.wrp {
+	width: 730px;
+	padding-bottom: 50px;
+
+	&__btnBack {
+		border: none;
+		background-color: white;
+	}
+
+	&__name {
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	&__header-pr {
+		display: flex;
+		padding: 20px;
+		border-bottom: 2px solid rgb(197, 190, 190);
+	}
+	&__TitleProfile {
+		padding-left: 30px;
+	}
+	&__profileNdPic {
+		width: 100px;
+		height: 40px;
+		border: 1px solid rgba(0, 0, 0, 0.4);
+		background-color: white;
+		border-radius: 50px;
+		color: black;
+		font-weight: 600;
+		margin-left: 83%;
+		margin-top: 20px;
+		transition: all 1s ease;
+
+		&:hover {
+			background-color: rgb(27, 74, 83);
+			color: white;
+		}
+	}
+
+	&__PicBtnWrp {
+		display: flex;
+		// justify-content: space-between;
+		// align-items: center;
+	}
+
+	&__boburPic {
+		position: absolute;
+		bottom: -3%;
+		left: 3%;
+		border-radius: 50%;
+	}
+
+	&__Rectangle {
+		width: 100%;
+		height: 300px;
+		background-position: center;
+		background-size: cover;
+	}
+
+	&__profile {
+		position: relative;
+	}
+	&__ComBobur {
+		font-size: 22px;
+		font-weight: 600;
+	}
+
+	&__tech {
+		display: flex;
+		align-items: center;
+	}
+
+	&__company {
+		padding-left: 25px;
+		padding-top: 20px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__linktech {
+		color: #1da1f2;
+		padding-left: 5px;
+		font-weight: 200;
+	}
+	&__email {
+		font-weight: 300;
+		color: dimgray;
+	}
+
+	&__location {
+		display: flex;
+		justify-content: space-around;
+		margin-left: 20px;
+	}
+
+	&__mashagdaman {
+		position: relative;
+		font-weight: 200;
+		font-size: 14px;
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/images/location.svg);
+			left: -25px;
+		}
+	}
+
+	&__emailBobur {
+		position: relative;
+		color: #1da1f2;
+		font-weight: 200;
+		font-size: 14px;
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/images/zanjir.svg);
+			left: -25px;
+		}
+	}
+
+	&__born {
+		position: relative;
+		font-weight: 200;
+		font-size: 14px;
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/images/shar.svg);
+			left: -25px;
+		}
+	}
+
+	&__moment {
+		position: relative;
+		font-weight: 200;
+		font-size: 14px;
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 20px;
+			height: 20px;
+			background-repeat: no-repeat;
+			background-image: url(../../Assets/images/date.svg);
+			left: -25px;
+		}
+	}
+
+	&__following {
+		font-size: 15px;
+		font-weight: 500;
+	}
+
+	&__followers {
+		font-size: 15px;
+		font-weight: 500;
+		// padding-left: 20px;
+	}
+
+	&__follow {
+		display: flex;
+		padding-left: 20px;
+	}
+
+	&__follower {
+		padding-left: 40px;
+	}
+
+	&__Media {
+		display: flex;
+		justify-content: space-around;
+		margin-left: 27px;
+		padding-top: 20px;
+		//    padding-bottom: 30px;
+	}
+
+	&__mediaLike {
+		font-size: 18px;
+		font-weight: 500;
+	}
+
+	&__mediawrp {
+		border-bottom: 2px solid rgb(206, 204, 207);
+		height: 63px;
+	}
+
+	&__tweets {
+		width: 59px;
+		height: 40px;
+		// background-color: blueviolet;
+
+		&:hover {
+			border-bottom: 5px solid #1da1f2;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+	}
+
+	&__likes {
+		width: 45px;
+		height: 40px;
+
+		&:hover {
+			// background-color: red;
+			border-bottom: 4px solid #1da1f2;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+	}
+
+	&__reply {
+		width: 139px;
+		height: 40px;
+		&:hover {
+			border-bottom: 4px solid #1da1f2;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+	}
+
+	&__Lmedia {
+		width: 50px;
+		height: 40px;
+
+		&:hover {
+			border-bottom: 4px solid #1da1f2;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+	}
+
+	&__pinned {
+		position: relative;
+		font-size: 15px;
+		font-weight: 500;
+		color: rgb(177, 175, 175);
+		padding-left: 135px;
+
+		&::before {
+			content: '';
+			position: absolute;
+			background-image: url(../../Assets/iconcha/tugma.svg);
+			width: 15px;
+			height: 16px;
+			left: 50%;
+			top: 10%;
+		}
+	}
+
+	&__txtBobur {
+		font-weight: 500;
+		color: dimgray;
+	}
+
+	&__curs1 {
+		display: flex;
+		// justify-content: space-between;
+	}
+
+	&__curs12 {
+		display: flex;
+		padding-top: 30px;
+	}
+
+	&__fourPic {
+		margin-left: 25px;
+		padding-right: 10px;
+		margin-top: 15px;
+		margin-bottom: 10px;
+		border-radius: 50%;
+	}
+	&__fourPic1 {
+		margin-left: 25px;
+		padding-right: 10px;
+		margin-top: 30px;
+		border-radius: 50%;
+	}
+	&__fourPic12 {
+		margin-left: 30px;
+		// padding-right: 10px;
+		// margin-top: 10px;
+		// padding-bottom: 30px;
+		border-radius: 50%;
+	}
+
+	&__txtwrp {
+		padding-top: 20px;
+		padding-left: 20px;
+	}
+
+	&__textTxt {
+		padding-top: -20px;
+	}
+
+	&__pinText {
+		border-bottom: 2px solid rgb(209, 203, 203);
+	}
+
+	&__oylanma {
+		margin-left: 80px;
+		width: 600px;
+		height: 400px;
+		margin-top: 20px;
+	}
+
+	&__like1 {
+		padding-bottom: 6px;
+		border-bottom: 2px solid rgb(211, 206, 206);
+	}
+	&__txtBoburName {
+		font-size: 18px;
+		font-weight: 600;
+		padding-right: 10px;
+		&:hover {
+			color: rgb(87, 87, 196);
+		}
+	}
+}
